@@ -1,0 +1,6 @@
+flask
+ibm_db
+markupsafe
+sqlalchemy
+requests
+
