@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+  <head>
+    <meta charset="UTF-8">
+    <title>INVENOTRY MANAGEMENT SYSTEM</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/FAQ.css')}}">
+    
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+   </head>
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Inventory</a></div>
+      <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          
+          <li><a href="#product">Features</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="/register">Register</a></li>
+          <li><a href="/login">Log in</a></li>
+
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+      </ul>
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+<!-- Home Section Start -->
+ <section class="home" id="home">
+   <div class="home-content">
+     <div class="text">
+       <div class="text-one">Welcome</div>
+       <div class="text-two">Inventory</div>
+       <div class="text-three">To maintain your stocks</div>
+       <div class="text-four">From your home</div>
+    
+ </section>
+
+<!-- About Section Start -->
+<section class="about" id="about">
+  <div class="content">
+    <div class="title"><span>About Us</span></div>
+  <div class="about-details">
+    <div class="left">
+      <img src="static/images/aboutus.png" alt="">
+    </div>
+    <div class="right">
+      <div class="topic">Inventory Management System Info</div>
+      <p>Welcome to our website. Here we Manage your orders, Track your  inventory, Handle GST billing, Oversee the warehouses.One inventory management software to run all your inventory operations..</p>
+      <div class="button">
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+
+
+<!-- My Skill Section Start -->
+<!-- Section Tag and Other Div will same where we need to put same CSS -->
+
+
+<!-- My Services Section Start -->
+ <section class="services" id="product">
+   <div class="content">
+     <div class="title"><span>Features</span></div>
+     <div class="boxes">
+       <div class="box">
+         <div class="icon">
+          <i class="fa fa-home" aria-hidden="true"></i>
+       </div>
+       <div class="topic">Warhouses Management</div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fa fa-cart-plus"></i>
+       </div>
+       <div class="topic">Order Management</div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+          <i class="fa fa-map-marker"></i>
+       </div>
+       <div class="topic">Inventory Tracking</div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+          <i class="fa fa-area-chart" aria-hidden="true"></i>
+       </div>
+       <div class="topic">Generate Reports</div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+          <i class="fa fa-barcode" aria-hidden="true"></i>
+       </div>
+       <div class="topic">Serial and batch Tracking</div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+       </div>
+       <div class="topic">Invoicing</div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+     </div>
+   </div>
+   </div>
+</section>
+
+
+
+<div class="section" id="faq">
+        <div class="content">
+          <h1 class="title" style="font-family: 'Ubuntu', sans-serif;color:#009FFD">FAQ Section</h1>
+          <div class="container-1">
+  
+              <div class="faq">
+                  <div class="question">
+                      <h2 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Times, serif;color:rgb(25, 25, 53)">What are the features availabe?</h2>
+                      <i class="fa fa-arrow-circle-o-right"></i>
+                  </div>
+                  <div class="answer">
+                      <p> There are many features availabe </p>
+                  </div>
+              </div>
+  
+              <div class="faq">
+                  <div class="question">
+                      <h2 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Times, serif;color:rgb(25, 25, 53)">How is the stock on hand calculated in Inventory?</h2>
+                      <i class="fa fa-arrow-circle-o-right"></i>
+                  </div>
+                  <div class="answer">
+                      <p>By creating Shipments(for stock out) and Receives(for stock in). By Invoices sent(for stock out) and Bills(for stock in) raised.</p>
+                  </div>
+              </div>
+  
+              <div class="faq">
+                  <div class="question">
+                      <h2 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Times, serif;color:rgb(25, 25, 53)">Can I track my purchases by vendor?</h2>
+                      <i class="fa fa-arrow-circle-o-right"></i>
+                  </div>
+                  <div class="answer">
+                      <p>Yes</p>
+                  </div>
+              </div>
+  
+          </div></div>
+
+        <div class="container-2">
+
+            <div class="faq">
+                <div class="question">
+                    <h2 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Times, serif;color:rgb(25, 25, 53)">Can I search for items and invoices with serial numbers?</h2>
+                    <i class="fa fa-arrow-circle-o-right"></i>
+                </div>
+                <div class="answer">
+                    <p>No</p>
+                </div>
+            </div>
+
+            <div class="faq">
+                <div class="question">
+                    <h2 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Times, serif;color:rgb(25, 25, 53)">Whether the invnetory is updated automatically</h2>
+                    <i class="fa fa-arrow-circle-o-right"></i>
+                </div>
+                <div class="answer">
+                    <p>Yes the application will automatically updated the stocks after the purchases.</p>
+                </div>
+            </div>
+
+            <div class="faq">
+                <div class="question">
+                    <h2 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Times, serif;color:rgb(25, 25, 53)">Whether the low stock will be indicated through email</h2>
+                    <i class="fa fa-arrow-circle-o-right"></i>
+                </div>
+                <div class="answer">
+                    <p>Yes.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+<!-- Contact Me section Start -->
+<section class="contact" id="contact">
+  <div class="content">
+    <div class="title"><span>Contact Us</span></div>
+    <div class="text">
+      <div class="topic">Have Any Questions</div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam neque ipsum corrupti dolores, facere numquam voluptate aspernatur sit perferendis qui nisi modi! Recusandae deserunt consequatur voluptatibus alias repellendus nobis eligendi.</p>
+      <div class="button">
+        <button>Let's Chat</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer Section Start -->
+<footer>
+  <div class="text">
+    <span>Created By   </span>
+    <br>
+    <span>RISHI RAGUL.R  |</span>
+    <span>NETHAAJI.M   |</span>
+    <span>SEKAR.K.A   |</span>
+    <span>RUTHIRA KANNAN .K  |</span>
+    <span>PRAKASHMANI.K</span>
+  </div>
+</footer>
+  <script src="{{ url_for('static',filename='js/script.js')}}"></script>
+  <script src="{{ url_for('static',filename='js/FAQ.js')}}"></script>
+  <script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "0032bdd2-5b59-4312-a00c-cece7ea268f0", // The ID of this integration.
+      region: "au-syd", // The region your integration is hosted in.
+      serviceInstanceID: "30b01793-f193-4ada-a147-4610ae753688", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
+</script>
+</body>
+</html>
