@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/dashboardsk.css')}}">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="navigation">
+            <ul> 
+                <li>
+                    <a href="#">
+                        <span class="icon"><b><ion-icon name="cart-outline"></ion-icon></b></span>
+                        <span class="title"><b><h2>Inventory</h2></b></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li> 
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="people-sharp"></ion-icon></span>
+                        <span class="title">Retailers</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="create-outline"></ion-icon></span>
+                        <span class="title">My ordres</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="document-text-outline"></ion-icon></span>
+                        <span class="title">Invoices</span>
+                    </a>
+                </li> 
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="exit-outline"></ion-icon></span>
+                        <span class="title">sign out</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    
+      <!-- main-->
+      <div class="main">
+        <div class="topbar">
+            <div class="toggle">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+            <!--search-->
+            <div class="search">
+                <label>
+                     <input type="text" placeholder="Search  Products here">
+                     <ion-icon name="search-outline"></ion-icon>
+                </label>
+            </div>
+            <!--userImg-->
+            <div class="user">
+                <img src="static/images/user-dash.png" alt="">
+            </div>
+          </div>
+          <!--cards-->
+          <div class="cardBox">
+            <div class="card">
+                <div>
+                    <div class="numbers">69</div>
+                    <div class="cardname"> My Orders</div>
+                </div>
+                <div class="iconBx"><ion-icon name="receipt-sharp"></ion-icon></div>
+            </div>
+            <div class="card">
+                <div>
+                    <div class="numbers">54</div>
+                    <div class="cardname"> Retailers</div>
+                </div>
+                <div class="iconBx"><ion-icon name="people-sharp"></ion-icon></div>
+            </div>
+            <div class="card">
+                <div>
+                    <div class="numbers">80</div>
+                    <div class="cardname"> WishList Items</div>
+                </div>
+                <div class="iconBx"><ion-icon name="heart-sharp"></ion-icon></div>
+            </div>
+            <div class="card">
+                <div>
+                    <div class="numbers">MR x</div>
+                    <div class="cardname"> Top Seller</div>
+                </div>
+                <div class="iconBx"><ion-icon name="podium-sharp"></ion-icon></div>
+            </div>
+          </div>
+          <!--oreder details two main container-->
+          <div class="details">
+             <div class="recentOrders">
+                <div class="cardHeader">
+                    <h2> My orders </h2>
+                    <a href="#" class="btn"> View all</a>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>product Id</td>
+                            <td>product <br>Name</td>
+                            <td>Quantity</td>
+                            <td>Prize</td>
+                            <td>Status</td>
+                              
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> 101</td>
+                            <td>Fridge</td>
+                            <td>1</td>
+                            <td>5000</td>
+                            <td><span class="status pending"> Pending </span></td>
+                        </tr>
+                        <tr>
+                            <td> 101</td>
+                            <td>Fridge</td>
+                            <td>1</td>
+                            <td>5000</td>
+                            <td><span class="status pending"> Pending </span></td>
+                        </tr>
+                        <tr>
+                            <td> 101</td>
+                            <td>Fridge</td>
+                            <td>1</td>
+                            <td>5000</td>
+                            <td><span class="status pending"> Pending </span></td>
+                        </tr>
+                        <tr>
+                            <td> 101</td>
+                            <td>Fridge</td>
+                            <td>1</td>
+                            <td>5000</td>
+                            <td><span class="status pending"> Pending </span></td>
+                        </tr>
+                        <tr>
+                            <td> 101</td>
+                            <td>Fridge</td>
+                            <td>1</td>
+                            <td>5000</td>
+                            <td><span class="status pending"> Pending </span></td>
+                        </tr>
+                        <tr>
+                            <td> 101</td>
+                            <td>Fridge</td>
+                            <td>1</td>
+                            <td>5000</td>
+                            <td><span class="status received"> received </span></td>
+                        </tr>
+                        <tr>
+                            <td> 101</td>
+                            <td>Fridge</td>
+                            <td>1</td>
+                            <td>5000</td>
+                            <td><span class="status received"> received </span></td>
+                        </tr>
+                        <tr>
+                            <td> 101</td>
+                            <td>Fridge</td>
+                            <td>1</td>
+                            <td>5000</td>
+                            <td><span class="status received"> received </span></td>
+                        </tr>
+                    </tbody>
+                </table>
+             </div>
+             <!--new customers-->
+             <div class="recentCustomers">
+                <div class="cardHeader">
+                  <h2>WishList</h2>
+                </div>
+                <table>
+                    <tr>
+                      <td width="60px"><div class="imgBx"><img src="static/images/user-dash.png"></div></td>
+                      <td><h4>Prem<br><span>Dharmapuri</span></h4></td>  
+                    </tr>
+                    <tr>
+                        <td width="60px"><div class="imgBx"><img src="static/images/user-dash.png"></div></td>
+                        <td><h4>Prem<br><span>Dharmapuri</span></h4></td>  
+                    </tr>
+                    <tr>
+                        <td width="60px"><div class="imgBx"><img src="static/images/user-dash.png"></div></td>
+                        <td><h4>Prem<br><span>Dharmapuri</span></h4></td>  
+                    </tr>
+                    <tr>
+                        <td width="60px"><div class="imgBx"><img src="static/images/user-dash.png"></div></td>
+                        <td><h4>Prem<br><span>Dharmapuri</span></h4></td>  
+                    </tr>
+                    <tr>
+                        <td width="60px"><div class="imgBx"><img src="static/images/user-dash.png"></div></td>
+                        <td><h4>Prem<br><span>Dharmapuri</span></h4></td>  
+                    </tr>
+                    <tr>
+                        <td width="60px"><div class="imgBx"><img src="static/images/user-dash.png"></div></td>
+                        <td><h4>Prem<br><span>Dharmapuri</span></h4></td>  
+                    </tr>
+                    <tr>
+                        <td width="60px"><div class="imgBx"><img src="static/images/user-dash.png"></div></td>
+                        <td><h4>Prem<br><span>Dharmapuri</span></h4></td>  
+                    </tr>
+
+                </table>
+             </div>
+          </div>
+        </div>
+    </div>
+ <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<!--menu toggle-->
+<script>
+    let toggle=document.querySelector('.toggle');
+    let navigation=document.querySelector('.navigation');
+    let main=document.querySelector('.main');
+
+    toggle.onclick=function()
+    {
+      navigation.classList.toggle('active')
+      main.classList.toggle('active')
+    }
+
+</script>
+<script>
+    //add hovered class in selected list item
+    let list=document.querySelectorAll('.navigation li');
+    function activeLink(){
+        list.forEach((item) =>
+        item.classList.remove('hovered'));
+        this.classList.add('hovered');
+    }
+    list.forEach((item)=>
+    item.addEventListener('mouseover',activeLink))
+</script>
+</body>
+</html>
